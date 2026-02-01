@@ -1,11 +1,10 @@
-let phrase = "that's all folks";
-console.log(phrase[phrase.length]); //15
-console.log(phrase[phrase.length - 1]); //k
-console.log(phrase[phrase.length - 2]); //l
+let phrase = "that's all folks"; //undefined
+console.log(phrase[phrase.length - 1]); //s
+console.log(phrase[phrase.length - 2]); //k
 
 const i = 9;
-const char = phrase[i]; //l
-console.log(char); //8
+const char = phrase[i]; //
+console.log(char); //l
 console.log(phrase.indexOf(char)); //8
 console.log(phrase.slice(2, 8)); //at's a
 
